@@ -2,13 +2,13 @@
 layout: default
 title: Home
 ---
-    <article>
         {% for post in paginator.posts %}
-            <h1 class="title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-            <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date"><p class="date">{{ post.date | date_to_string }}</p></time>
-            {{ post.content }}
-        {% endfor %}
-    </article>
+            <article>
+                <h1 class="title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+                <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date"><p class="date">{{ post.date | date_to_string }}</p></time>
+                {{ post.content }}
+            </article>
+    {% endfor %}
 
     <div class="page">
         <div class="grid">
