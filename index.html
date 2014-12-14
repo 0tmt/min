@@ -20,19 +20,19 @@ title: Home
                 
                 {% if paginator.previous_page %}
                 {% if paginator.page == 2 %}
-                    <a class="newer" href="{{ site.baseurl }}">next</a>
+                    <a class="newer" href="{{ site.baseurl }}">previous</a>
                 {% else %}
-                    <a class="newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">next</a>
+                    <a class="newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">previous</a>
                 {% endif %}
         
                 {% else %}
-                <span class="newer">next</span>
+                    <span class="newer">previous</span>
                 {% endif %}
                 
                 {% if paginator.next_page %}
-                    <a class="older" href="{{ site.baseurl }}page{{paginator.next_page}}">previous</a>
+                    <a class="older" href="{{ site.baseurl }}page{{paginator.next_page}}">next</a>
                 {% else %}
-                <span class="older">previous</span>
+                <span class="older">next</span>
                 {% endif %}
         
                 
