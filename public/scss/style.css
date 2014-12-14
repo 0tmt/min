@@ -197,10 +197,13 @@ article {
   .page a {
     font-weight: 700; }
   /* line 99, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
-  .page p {
-    margin: 25px; }
+  .page .older {
+    float: left; }
+  /* line 100, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
+  .page .newer {
+    float: right; }
 
-/* line 103, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
+/* line 104, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
 footer {
   padding: 25px 0px;
   border-top: solid 1px #f1f1f1; }
