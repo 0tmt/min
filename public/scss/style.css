@@ -208,13 +208,16 @@ article {
     font-weight: 700;
     font-family: 'Lato', sans-serif; }
   /* line 111, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
+  .page .small {
+    font-weight: 400; }
+  /* line 113, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
   .page .older {
     float: right; }
-  /* line 112, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
+  /* line 114, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
   .page .newer {
     float: left; }
 
-/* line 116, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
+/* line 118, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
 footer {
   padding: 25px 0px;
   border-top: solid 1px #f1f1f1; }

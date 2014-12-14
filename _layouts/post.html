@@ -19,7 +19,7 @@ layout: default
                     <ul class="related-posts">
                         {% for post in site.related_posts limit:3 %}
                         <li>
-                            <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
+                            <p><a class="small" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
                         </li>
                         {% endfor %}
                     </ul>
