@@ -5,12 +5,12 @@ relative_permalinks: true
 # Setup
 title:            min
 tagline:          A simple Jekyll theme
-url:              http://dbelt93.github.io/min/
+url:              http://dbelt93.github.io/
 paginate:         1
-baseurl:          http://dbelt93.github.io/min/
+baseurl:          /min
 
 author:           Daniel Belt
-  name:          
+  name:             
   url:            dbelt93.github.io
   email:          dbelt93@gmail.com
 
