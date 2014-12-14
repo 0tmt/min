@@ -86,8 +86,8 @@ section {
 }
 
 .page {
-    padding: 25px 0px;
     margin: 10px;
+    padding: 25px 0px;
     border-top: solid 1px #f1f1f1;
     
     a {font-weight: 700;}
@@ -96,10 +96,6 @@ section {
 article {
     @extend .main;
     padding: 75px 0px;
-    
-    .one-post {
-        padding: 0px 0px;
-    }
 }
 
 footer {

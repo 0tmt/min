@@ -187,8 +187,8 @@ section {
 
 /* line 88, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
 .page {
-  padding: 25px 0px;
   margin: 10px;
+  padding: 25px 0px;
   border-top: solid 1px #f1f1f1; }
   /* line 93, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
   .page a {
@@ -197,11 +197,8 @@ section {
 /* line 96, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
 article {
   padding: 75px 0px; }
-  /* line 100, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
-  article .one-post {
-    padding: 0px 0px; }
 
-/* line 105, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
+/* line 101, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
 footer {
   padding: 25px 0px;
   border-top: solid 1px #f1f1f1; }
