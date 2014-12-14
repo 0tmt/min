@@ -7,7 +7,7 @@ title:            Poole
 tagline:          The Jekyll Butler
 url:              http://dbelt93.github.io
 paginate:         1
-baseurl:          /min
+baseurl:          http://dbelt93.github.io/min/
 author:
   name:           Mark Otto
   url:            https://twitter.com/mdo
