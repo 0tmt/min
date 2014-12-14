@@ -6,7 +6,7 @@ relative_permalinks: true
 title:            min
 tagline:          A simple Jekyll theme
 url:              http://dbelt93.github.io
-paginate:         2
+paginate:         1
 baseurl:          http://dbelt93.github.io/min/
 author:
   name:           Daniel Belt
