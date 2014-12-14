@@ -95,6 +95,10 @@ section {
 article {
     @extend .main;
     padding: 75px 0px;
+    
+    .one-post {
+        padding: 0px 0px;
+    }
 }
 
 footer {

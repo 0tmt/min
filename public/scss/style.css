@@ -196,8 +196,11 @@ section {
 /* line 95, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
 article {
   padding: 75px 0px; }
+  /* line 99, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
+  article .one-post {
+    padding: 0px 0px; }
 
-/* line 100, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
+/* line 104, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
 footer {
   padding: 25px 0px;
   border-top: solid 1px #f1f1f1; }
