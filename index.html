@@ -4,8 +4,14 @@ title: Home
 ---
 
     {% for post in paginator.posts %}
-        <h1 class="title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-        <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date"><p class="date">{{ post.date | date_to_string }}</p></time>
+        <section>
+            <div class="grid">
+                <div class="loop12">
+                    <h1 class="title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+                    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date"><p class="date">{{ post.date | date_to_string }}</p></time>
+                </div>
+            </div>
+        </section>
 
         {{ post.content }}
     {% endfor %}
