@@ -1,0 +1,44 @@
+<head>
+  <meta charset="UTF-8">
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <title>
+        {% if page.title == "Home" %} {{ site.title }} &middot; {{ site.tagline }}
+        
+        {% else %}
+            {{ page.title }} &middot; {{ site.title }}
+        {% endif %}
+    </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ site.baseurl }}public/scss/style.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}public/scss/syntax.css">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="{{ site.baseurl }}public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}atom.xml">
+</head>
+
+<html>
+<body>
+    <nav>
+        <div class="grid">
+            <div class="loop6">
+                <h6><a href="{{ site.baseurl }}" title="Home">{{ site.title }}</a></h6>
+                {{ site.tagline }}
+            </div>
+            
+            <div class="loop6">
+                <ul class="menu">
+                    <li><p><a href="#">about</a></p></li>
+                    <li><p><a href="#">features</a></p></li>
+                </ul>
+            </div>
+        </div>
+    </nav>

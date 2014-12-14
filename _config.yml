@@ -1,0 +1,19 @@
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            min
+tagline:          A simple Jekyll theme
+url:              http://dbelt93.github.io
+paginate:         1
+baseurl:          /min
+author:
+  name:           Daniel Belt
+  url:            dbelt93.github.io
+  email:          dbelt93@gmail.com
+
+# Custom vars
+version:          1.0.0
+github:
+  repo:           http://dbelt93.github.io/min/
