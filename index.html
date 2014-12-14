@@ -18,22 +18,23 @@ title: Home
         <div class="grid">
             <div class="loop12">
                 
-        {% if paginator.next_page %}
-            <a class="older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-        {% else %}
-            <span class="older">Older</span>
-        {% endif %}
+                {% if paginator.previous_page %}
+                {% if paginator.page == 2 %}
+                    <a class="newer" href="{{ site.baseurl }}">next</a>
+                {% else %}
+                    <a class="newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">next</a>
+                {% endif %}
         
-        {% if paginator.previous_page %}
-        {% if paginator.page == 2 %}
-            <a class="newer" href="{{ site.baseurl }}">Newer</a>
-        {% else %}
-            <a class="newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-        {% endif %}
+                {% else %}
+                <span class="newer">next</span>
+                {% endif %}
+                
+                {% if paginator.next_page %}
+                    <a class="older" href="{{ site.baseurl }}page{{paginator.next_page}}">previous</a>
+                {% else %}
+                <span class="older">previous</span>
+                {% endif %}
         
-        {% else %}
-            <span class="newer">Newer</span>
-        {% endif %}
                 
             </div>
         </div>
