@@ -2,8 +2,8 @@
 layout: default
 ---
 
-    <h1 class="title post">{{ page.title }}</h1>
-    <time class="date" datetime="{{ page.date | date_to_xmlschema }}" class="page-date">{{ page.date | date_to_string }}</time>
+    <h1 class="title">{{ page.title }}</h1>
+    <time datetime="{{ page.date | date_to_xmlschema }}" class="page-date"><p class="date">{{ page.date | date_to_string }}</p></time>
     {{ content }}
 
 
