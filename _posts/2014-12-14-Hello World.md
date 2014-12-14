@@ -11,5 +11,5 @@ title: Hello World
     <li><p>Open up terminal</p></li>
     <li><p>Say fuck terminal</p></li>
     <li><p>Fork this repo</p></li>
-    <li><p>Set base url</p></li>
+    <li><p>Set the base url in the config file</p></li>
 </ol>
