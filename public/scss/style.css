@@ -186,21 +186,21 @@ section {
   padding: 75px 0px; }
 
 /* line 88, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
-.page {
-  padding: 25px 0px;
-  border-top: solid 1px #f1f1f1; }
-  /* line 92, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
-  .page a {
-    font-weight: 700; }
-  /* line 94, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
-  .page p {
-    margin: 25px; }
-
-/* line 99, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
 article {
   padding: 75px 0px; }
 
-/* line 104, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
+/* line 93, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
+.page {
+  padding: 25px 0px;
+  border-top: solid 1px #f1f1f1; }
+  /* line 97, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
+  .page a {
+    font-weight: 700; }
+  /* line 99, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
+  .page p {
+    margin: 25px; }
+
+/* line 103, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
 footer {
   padding: 25px 0px;
   border-top: solid 1px #f1f1f1; }
