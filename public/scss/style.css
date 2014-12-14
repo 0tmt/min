@@ -198,10 +198,10 @@ article {
     font-weight: 700; }
   /* line 99, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
   .page .older {
-    float: left; }
+    float: right; }
   /* line 100, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
   .page .newer {
-    float: right; }
+    float: left; }
 
 /* line 104, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
 footer {
