@@ -1,4 +1,4 @@
-// Siimple v1.0
+// min v1.0
 
 @import 'config.scss';
 @import 'grid.scss';
@@ -87,6 +87,8 @@ section {
     .page {
         padding: 25px 0px;
         border-top: solid 1px #f1f1f1;
+        
+        a {font-weight: 700;}
     }
 }
 
@@ -95,8 +97,6 @@ article {
     padding: 75px 0px;
     
     .post {
-        padding: 75px 0px;
-        border-bottom: solid 1px #e9e9e9;
     }
 }
 
