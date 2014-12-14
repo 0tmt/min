@@ -3,18 +3,17 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            min
-tagline:          A simple Jekyll theme
-url:              http://dbelt93.github.io/
+title:            Poole
+tagline:          The Jekyll Butler
+url:              http://getpoole.com
 paginate:         1
-baseurl:          /min
-
-author:           Daniel Belt
-  name:             
-  url:            dbelt93.github.io
-  email:          dbelt93@gmail.com
+baseurl:          /
+author:
+  name:           Mark Otto
+  url:            https://twitter.com/mdo
+  email:          markdotto@gmail.com
 
 # Custom vars
 version:          1.0.0
 github:
-  repo:           http://dbelt93.github.io/min/
+  repo:           https://github.com/poole/poole
