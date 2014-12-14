@@ -5,7 +5,7 @@ title: Hello World
 
 <p>Welcome to min a simple Jekyll theme for people who are afarid of the terminal. I'm just kidding min is a theme for people who want to build Jekyll sites in the browser.</p>
 
-<h3 style="margin: 25px 0px;">Installing min</h3>
+<h6 style="margin: 25px 0px;">Installing min</h6>
 
 <ol>
     <li><p>Open up terminal</p></li>
