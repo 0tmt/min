@@ -6,7 +6,7 @@
 // Demo CSS
 
 html, body {
-    color: #555;
+    color: #888;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.8;
@@ -61,6 +61,12 @@ p {
     color: #aaa;
     font-size: 14px;
     margin-bottom: 25px;
+    
+    ul li {
+        list-style-type: none;
+        display: block;
+        margin-top: 5px;
+    }
 }
 
 nav {
