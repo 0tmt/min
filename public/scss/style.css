@@ -167,42 +167,42 @@ p {
   color: #aaa;
   font-size: 14px;
   margin-bottom: 25px; }
-  /* line 65, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
-  .date ul li {
-    list-style-type: none;
-    display: block;
-    margin-top: 5px; }
 
-/* line 72, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
+/* line 66, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
 nav {
   padding: 15px 0px;
   border-bottom: solid 1px #f1f1f1; }
-  /* line 77, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
+  /* line 71, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
   nav .logo {
     line-height: 1.8;
     text-transform: uppercase;
     font-family: 'Lato', sans-serif; }
-  /* line 83, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
+  /* line 77, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
   nav .menu {
     text-align: right; }
-  /* line 85, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
+  /* line 79, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
   nav ul li {
     list-style-type: none;
     display: inline-block;
     margin-left: 25px; }
 
-/* line 92, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
+/* line 86, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
 section {
   padding: 75px 0px; }
 
-/* line 97, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
+/* line 91, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
 article {
   padding: 75px 0px; }
 
-/* line 102, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
+/* line 96, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
 .page {
   padding: 25px 0px;
   border-top: solid 1px #f1f1f1; }
+  /* line 100, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
+  .page ul li {
+    list-style-type: none;
+    display: block;
+    margin-top: 5px; }
   /* line 106, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
   .page a {
     font-weight: 700;

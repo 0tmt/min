@@ -61,12 +61,6 @@ p {
     color: #aaa;
     font-size: 14px;
     margin-bottom: 25px;
-    
-    ul li {
-        list-style-type: none;
-        display: block;
-        margin-top: 5px;
-    }
 }
 
 nav {
@@ -102,6 +96,12 @@ article {
 .page {
     padding: 25px 0px;
     border-top: solid 1px #f1f1f1;
+    
+    ul li {
+        list-style-type: none;
+        display: block;
+        margin-top: 5px;
+    }
     
     a {
         font-weight: 700;
