@@ -86,19 +86,12 @@ section {
 }
 
 .page {
-    padding: 25px 0px;
-    border-top: solid 1px #f1f1f1;
-        
     a {font-weight: 700;}
 }
 
 article {
     @extend .main;
     padding: 75px 0px;
-    
-    .post {
-        padding: 0px 0px;
-    }
 }
 
 footer {
