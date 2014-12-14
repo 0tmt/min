@@ -4,7 +4,7 @@ title: Home
 ---
 
     {% for post in paginator.posts %}
-        <section>
+        <article class="post">
             <div class="grid">
                 <div class="loop12">
                     <h1 class="title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
@@ -12,7 +12,7 @@ title: Home
                     {{ post.content }}
                 </div>
             </div>
-        </section>
+        </article>
     {% endfor %}
 
     <!--<section class="page">
