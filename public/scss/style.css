@@ -155,41 +155,43 @@ p {
   text-align: right; }
 
 /* line 56, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
+.post title {
+  margin-bottom: 5px; }
+
+/* line 60, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
+.date {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 25px; }
+
+/* line 66, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
 nav {
   padding: 15px 0px;
   border-bottom: solid 1px #f1f1f1; }
-  /* line 61, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
+  /* line 71, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
   nav .logo {
     line-height: 1.8;
     font-family: 'Muli', sans-serif; }
-  /* line 66, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
+  /* line 76, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
   nav .menu {
     text-align: right; }
-  /* line 68, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
+  /* line 78, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
   nav ul li {
     list-style-type: none;
     display: inline-block;
     margin-left: 25px; }
 
-/* line 75, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
+/* line 85, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
 section {
   padding: 100px 0px; }
-  /* line 79, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
+  /* line 89, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
   section .page {
     padding: 25px 0px;
     border-top: solid 1px #f1f1f1; }
 
-/* line 85, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
+/* line 95, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
 article {
   padding: 75px 0px; }
-  /* line 89, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
-  article .post {
-    margin-bottom: 5px; }
-  /* line 93, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
-  article .date {
-    color: #888;
-    font-size: 14px;
-    margin-bottom: 25px; }
 
 /* line 100, C:/Users/DanielBelt/Documents/GitHub/min/public/scss/style.scss */
 footer {

@@ -53,6 +53,16 @@ p {
 
 .right {text-align: right;}
 
+.post title {
+    margin-bottom: 5px;
+}
+    
+.date {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
 nav {
     @extend .main;
     padding: 15px 0px;
@@ -85,16 +95,6 @@ section {
 article {
     @extend .main;
     padding: 75px 0px;
-    
-    .post {
-        margin-bottom: 5px;
-    }
-    
-    .date {
-        color: #888;
-        font-size: 14px;
-        margin-bottom: 25px;
-    }
 }
 
 footer {
