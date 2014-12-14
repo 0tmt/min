@@ -67,9 +67,9 @@ nav {
     border-bottom: solid 1px #f1f1f1;
     
     .logo {
-        font-weight: 400;
         line-height: 1.8;
-        font-family: 'Muli', sans-serif;
+        text-transform: uppercase;
+        font-family: 'Lato', sans-serif;
     }
     
     .menu {text-align: right;}
@@ -95,7 +95,10 @@ article {
     padding: 25px 0px;
     border-top: solid 1px #f1f1f1;
     
-    a {font-weight: 400;}
+    a {
+        font-weight: 700;
+        font-family: 'Lato', sans-serif;
+    }
     
     .older {float: right;}
     .newer {float: left;}
