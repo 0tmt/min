@@ -15,4 +15,3 @@ author:
   
 #SASS (SCSS)
     style: :compressed 
-    sass_dir: assets/scss
