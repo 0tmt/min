@@ -16,3 +16,6 @@ author:
 sass:
   sass_dir: _scss
   style: :expanded # You might prefer to minify using :compressed
+  
+markdown:            kramdown
+highlighter:         pygments
