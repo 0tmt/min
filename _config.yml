@@ -2,7 +2,7 @@
 permalink:        pretty
 relative_permalinks: true
 
-# Setup
+# Basic Info
 title:            min
 tagline:          A simple Jekyll theme
 url:              http://dbelt93.github.io
@@ -12,8 +12,7 @@ author:
   name:           Daniel Belt
   url:            dbelt93.gith.io
   email:          dbelt93@gmail.com
-
-# Custom vars
-version:          1.0
-github:  
-  repo:           http://dbelt93.github.io/min/
+  
+#SASS (SCSS)
+    style: :compressed 
+    sass_dir: assets/scss
