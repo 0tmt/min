@@ -5,6 +5,7 @@ relative_permalinks: true
 # Basic Info
 title:            min
 tagline:          A simple Jekyll theme
+description:      Describe your website.
 url:              http://dbelt93.github.io
 paginate:         1
 baseurl:          http://dbelt93.github.io/min/
