@@ -91,7 +91,7 @@
 /* line 8, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
 html, body {
   color: #777;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.8;
   word-spacing: 1px;
@@ -146,9 +146,9 @@ h6 {
 /* line 45, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
 p {
   color: #777;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 2.2;
+  line-height: 1.8;
   word-spacing: 1px;
   letter-spacing: 1px;
   font-family: 'Lato', sans-serif;
