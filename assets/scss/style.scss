@@ -141,7 +141,9 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .menu, .right {
-        text-align: center;
+    nav {
+        .logo, .menu {text-align: center;}
     }
+    
+    .right {text-align: center;}
 }

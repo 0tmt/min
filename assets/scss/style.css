@@ -230,8 +230,12 @@ footer {
   border-top: solid 1px #f1f1f1; }
 
 @media (max-width: 768px) {
-  /* line 144, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
-  .menu, .right {
+  /* line 145, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+  nav .logo, nav .menu {
+    text-align: center; }
+
+  /* line 148, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+  .right {
     text-align: center; }
  }
 
