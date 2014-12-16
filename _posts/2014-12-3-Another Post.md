@@ -3,6 +3,10 @@ layout: post
 title: Another Post
 ---
 
+<img src="assets/img/image.jpg">
+
+<br><br>
+
 <p>She done it, too; and she done it beautiful.  She done it so beautiful it was good to hear; and I wished I could tell her a thousand lies, so she could do it again.
 <br><br>
 I says to myself, this is _another_ one that I'm letting him rob her of her money.  And when she got through they all jest laid theirselves out to make me feel at home and know I was amongst friends.  I felt so ornery and low down and mean that I says to myself, my mind's made up; I'll hive that money for them or bust.
