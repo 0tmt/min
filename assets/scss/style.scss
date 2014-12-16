@@ -75,7 +75,6 @@ p {
 }
 
 // Section Styling ========================
-
 img {
     width: 100%;
     height: auto;
@@ -140,6 +139,7 @@ footer {
     border-top: solid 1px #f1f1f1;
 }
 
+// Breakpoint Styling ========================
 @media (max-width: 768px) {
     nav {
         .logo, .menu {text-align: center;}
