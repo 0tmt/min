@@ -7,7 +7,7 @@ title: Hello World
 
 <h5 style="margin-top: 50px; margin-bottom: 15px;">Installing min</h5>
 
-<ol>
+<ol style="margin-left: 25px;">
     <li><p>Open up terminal</p></li>
     <li><p>Say fuck terminal</p></li>
     <li><p>Fork this repo</p></li>
