@@ -18,8 +18,8 @@ html, body {
     line-height: 1.8;
     word-spacing: 1px;
     letter-spacing: 1px;
-    font-family: 'Muli', sans-serif;
     font-family: 'Roboto', sans-serif;
+    font-family: 'Muli', sans-serif;
 }
 
 a {
@@ -54,6 +54,7 @@ p {
     word-spacing: 1px;
     letter-spacing: 1px;
     font-family: 'Roboto', sans-serif;
+    font-family: 'Muli', sans-serif;
 }
 
 // Title Styling ========================
@@ -61,10 +62,12 @@ p {
 
 .title {
     margin-bottom: 25px;
+    text-transform: uppercase;
 }
 
 .title-post {
     margin-bottom: 5px;
+    text-transform: uppercase;
 }
 
 .date {
@@ -85,7 +88,7 @@ nav {
     border-bottom: solid 1px #f1f1f1;
     
     .logo {
-        font-weight: 400;
+        font-weight: 700;
         line-height: 1.8;
         text-transform: uppercase;
     }
