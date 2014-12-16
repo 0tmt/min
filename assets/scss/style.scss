@@ -1,9 +1,15 @@
-// min v1.0
+// MIN v1.0
+// Author: Daniel Belt
+// Website: dbelt93.github.io
+// Contact: dbelt93@gmail.com
 
+// Special thanks to poole.
+
+// Imports ========================
 @import 'config.scss';
 @import 'grid.scss';
 
-// Demo CSS
+// 
 
 html, body {
     color: #777;
@@ -21,12 +27,9 @@ a {
     @extend .animate;
 }
 
-.big {font-weight: 700;}
+a:hover {color: #39a4ff;}
 
-a:hover {
-    color: #39a4ff;
-}
-
+// Font Styling ========================
 h1, h2, h3, h4, h5, h6 {
     color: #555;
     font-weight: 400;
@@ -54,6 +57,7 @@ p {
     font-family: 'Muli', sans-serif;
 }
 
+// Title Styling ========================
 .right {text-align: right;}
 
 .title {
@@ -70,6 +74,7 @@ p {
     margin-bottom: 25px;
 }
 
+// Section Styling ========================
 nav {
     @extend .main;
     padding: 15px 0px;
