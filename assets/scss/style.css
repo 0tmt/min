@@ -238,7 +238,11 @@ footer {
     margin-left: 5px;
     margin-right: 5px; }
 
-  /* line 153, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+  /* line 154, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+  footer p {
+    text-align: center; }
+
+  /* line 157, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
   .right {
     text-align: center; }
  }
