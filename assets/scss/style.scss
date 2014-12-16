@@ -143,6 +143,11 @@ footer {
 @media (max-width: 768px) {
     nav {
         .logo, .menu {text-align: center;}
+        
+        ul li {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
     }
     
     .right {text-align: center;}

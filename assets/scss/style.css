@@ -233,8 +233,12 @@ footer {
   /* line 145, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
   nav .logo, nav .menu {
     text-align: center; }
+  /* line 147, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+  nav ul li {
+    margin-left: 5px;
+    margin-right: 5px; }
 
-  /* line 148, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+  /* line 153, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
   .right {
     text-align: center; }
  }
