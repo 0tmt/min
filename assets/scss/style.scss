@@ -9,7 +9,8 @@
 @import 'config.scss';
 @import 'grid.scss';
 
-// 
+::-moz-selection { color: #fff;  background: #73B6ED; }
+::selection      { color: #fff;  background: #73B6ED; } 
 
 html, body {
     color: #777;
