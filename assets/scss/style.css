@@ -162,9 +162,10 @@ p {
 /* line 59, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
 .title {
   margin-bottom: 25px; }
-  /* line 62, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
-  .title .post {
-    margin-bottom: 5px; }
+
+/* line 63, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+.title-post {
+  margin-bottom: 5px; }
 
 /* line 67, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
 .date {
