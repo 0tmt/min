@@ -3,7 +3,7 @@ layout: post
 title: Another Post
 ---
 
-<img src="../assets/img/image.jpg">
+<img src="{{ site.baseurl }}../assets/img/image.jpg">
 
 <br>
 
