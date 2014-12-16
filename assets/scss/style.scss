@@ -13,12 +13,13 @@
 
 html, body {
     color: #777;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     line-height: 1.8;
     word-spacing: 1px;
     letter-spacing: 1px;
     font-family: 'Muli', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -32,7 +33,7 @@ a:hover {color: #73B6ED;}
 // Font Styling ========================
 h1, h2, h3, h4, h5, h6 {
     color: #555;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 1.4;
     letter-spacing: 1px;
     font-family: 'Muli', sans-serif;
@@ -47,14 +48,12 @@ h6 {font-size: 16px;}
 
 p {
     color: #777;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 1.8;
     word-spacing: 1px;
     letter-spacing: 1px;
-    font-family: 'Vollkorn', serif;
-    font-family: 'Enriqueta', serif;
-    font-family: 'Vollkorn', serif;
+    ffont-family: 'Open Sans', sans-serif;
 }
 
 // Title Styling ========================
