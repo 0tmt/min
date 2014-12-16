@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
     line-height: 1.4;
     letter-spacing: 1px;
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Muli', sans-serif;
 }
 
 h1 {font-size: 28px;}
@@ -48,11 +48,13 @@ h6 {font-size: 16px;}
 p {
     color: #777;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.8;
     word-spacing: 1px;
     letter-spacing: 1px;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Vollkorn', serif;
+    font-family: 'Enriqueta', serif;
+    font-family: 'Vollkorn', serif;
 }
 
 // Title Styling ========================
@@ -84,7 +86,7 @@ nav {
     border-bottom: solid 1px #f1f1f1;
     
     .logo {
-        font-weight: 700;
+        font-weight: 400;
         line-height: 1.8;
         text-transform: uppercase;
     }
@@ -113,8 +115,8 @@ article {
     border-top: solid 1px #f1f1f1;
     
     a {
-        font-weight: 700;
-        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        font-family: 'Vollkorn', serif;
     }
     
     ul li {
