@@ -5,7 +5,7 @@ title: Another Post
 
 <img src="../assets/img/image.jpg">
 
-<br><br>
+<br>
 
 <p>She done it, too; and she done it beautiful.  She done it so beautiful it was good to hear; and I wished I could tell her a thousand lies, so she could do it again.
 <br><br>
