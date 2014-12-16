@@ -140,7 +140,7 @@ footer {
     border-top: solid 1px #f1f1f1;
 }
 
-@media (max-width: $break) {
+@media (max-width: 768px) {
     .menu, .right {
         text-align: center;
     }
