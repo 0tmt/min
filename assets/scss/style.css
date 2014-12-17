@@ -124,133 +124,134 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   line-height: 1.4;
   letter-spacing: 1px;
-  font-family: 'Muli', sans-serif; }
+  font-family: 'Muli', sans-serif;
+  font-family: 'Open Sans', sans-serif; }
 
-/* line 43, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+/* line 44, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
 h1 {
   font-size: 28px; }
 
-/* line 44, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+/* line 45, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
 h2 {
   font-size: 25px; }
 
-/* line 45, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+/* line 46, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
 h3 {
   font-size: 22px; }
 
-/* line 46, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+/* line 47, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
 h4 {
   font-size: 20px; }
 
-/* line 47, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+/* line 48, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
 h5 {
   font-size: 18px; }
 
-/* line 48, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+/* line 49, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
 h6 {
   font-size: 16px; }
 
-/* line 50, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+/* line 51, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
 p {
   color: #777;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.8;
   word-spacing: 1px;
   letter-spacing: 1px;
-  ffont-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif; }
 
-/* line 61, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+/* line 62, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
 .right {
   text-align: right; }
 
-/* line 63, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+/* line 64, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
 .title {
   margin-bottom: 25px; }
 
-/* line 67, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+/* line 68, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
 .title-post {
   margin-bottom: 5px; }
 
-/* line 71, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+/* line 72, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
 .date {
   color: #aaa;
   font-size: 14px;
   margin-bottom: 25px; }
 
-/* line 78, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+/* line 79, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
 img {
   width: 100%;
   height: auto; }
 
-/* line 83, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+/* line 84, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
 nav {
   padding: 15px 0px;
   border-bottom: solid 1px #f1f1f1; }
-  /* line 88, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+  /* line 89, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
   nav .logo {
-    font-weight: 400;
+    font-weight: 700;
     line-height: 1.8;
     text-transform: uppercase; }
-  /* line 94, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+  /* line 95, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
   nav .menu {
     text-align: right; }
-  /* line 96, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+  /* line 97, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
   nav ul li {
     list-style-type: none;
     display: inline-block;
     margin-left: 25px; }
 
-/* line 103, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+/* line 104, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
 section {
   padding: 75px 0px; }
 
-/* line 108, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+/* line 109, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
 article {
   padding: 75px 0px; }
 
-/* line 113, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+/* line 114, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
 .page {
   padding: 25px 0px;
   border-top: solid 1px #f1f1f1; }
-  /* line 117, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+  /* line 118, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
   .page a {
     font-weight: 700;
     font-family: 'Open Sans', sans-serif; }
-  /* line 122, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+  /* line 123, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
   .page ul li {
     list-style-type: none;
     display: block;
     margin-top: 5px; }
-  /* line 128, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+  /* line 129, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
   .page .small {
     font-weight: 400; }
-  /* line 130, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+  /* line 131, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
   .page .older {
     float: right; }
-  /* line 131, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+  /* line 132, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
   .page .newer {
     float: left; }
 
-/* line 135, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+/* line 136, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
 footer {
   padding: 25px 0px;
   border-top: solid 1px #f1f1f1; }
 
 @media (max-width: 768px) {
-  /* line 144, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+  /* line 145, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
   nav .logo, nav .menu {
     text-align: center; }
-  /* line 146, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+  /* line 147, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
   nav ul li {
     margin-left: 5px;
     margin-right: 5px; }
 
-  /* line 153, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+  /* line 154, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
   footer p {
     text-align: center; }
 
-  /* line 156, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
+  /* line 157, C:/Users/DanielBelt/Documents/GitHub/min/assets/scss/style.scss */
   .right {
     text-align: center; }
  }
