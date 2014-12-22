@@ -1,4 +1,4 @@
-// MIN v1.0
+// MIN v1.0 - a simple jekyll theme
 // Author: Daniel Belt
 // Website: dbelt93.github.io
 // Contact: dbelt93@gmail.com
@@ -30,13 +30,17 @@ a {
 
 a:hover {color: #73B6ED;}
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 // Font Styling ========================
 h1, h2, h3, h4, h5, h6 {
     color: #555;
     font-weight: 400;
     line-height: 1.4;
     letter-spacing: 1px;
-    font-family: 'Muli', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -58,16 +62,14 @@ p {
 }
 
 // Title Styling ========================
-.right {text-align: right;}
 
-.title {
-    margin-bottom: 25px;
-}
+// Title for pages
+.title {margin-bottom: 25px;}
 
-.title-post {
-    margin-bottom: 5px;
-}
+// Title for posts
+.title-post {margin-bottom: 5px;}
 
+// Date for posts
 .date {
     color: #aaa;
     font-size: 14px;
@@ -75,11 +77,6 @@ p {
 }
 
 // Section Styling ========================
-img {
-    width: 100%;
-    height: auto;
-}
-
 nav {
     @extend .main;
     padding: 15px 0px;
@@ -104,19 +101,23 @@ article {
     padding: 75px 0px;
 }
 
+// Pagination - Previous & Next
 .page {
     padding: 25px 0px;
     border-top: solid 1px #f1f1f1;
+    
+    a {font-weight: 700;}
     
     .older {float: right;}
     .newer {float: left;}
 }
 
-
 footer {
     @extend .main;
     padding: 25px 0px;
     border-top: solid 1px #f1f1f1;
+    
+    #thanks {text-align: right;}
 }
 
 // Breakpoint Styling ========================
@@ -130,9 +131,9 @@ footer {
         }
     }
     
-    footer {
-        p {text-align: center;} 
-    }
+    section, article {padding: 50px 0px;}
     
-    .right {text-align: center;}
+    footer {
+        p, #thanks {text-align: center;} 
+    }
 }
