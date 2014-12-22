@@ -19,7 +19,6 @@ html, body {
     line-height: 1.8;
     word-spacing: 1px;
     letter-spacing: 1px;
-    font-family: 'Muli', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -113,19 +112,6 @@ article {
 .page {
     padding: 25px 0px;
     border-top: solid 1px #f1f1f1;
-    
-    a {
-        font-weight: 700;
-        font-family: 'Open Sans', sans-serif;
-    }
-    
-    ul li {
-        list-style-type: none;
-        display: block;
-        margin-top: 5px;
-    }
-    
-    .small {font-weight: 400;}
     
     .older {float: right;}
     .newer {float: left;}
