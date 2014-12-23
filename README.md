@@ -9,7 +9,7 @@ Right now this theme is a bit rough around the edges. If you find any issues, ha
 ## Getting Started
 
 ###### Fork This Repo
-If you want to get going right away simply fork this repo into your own repositories. Then from there go to the config.yml file and set the <b>"url"</b>, and <b>"baseurl"</b> accordingly.
+If you want to get going right away simply fork this repo into your own repositories. Then from there go to the config.yml file and set the <b>"url"</b> & <b>"baseurl"</b> accordingly.
 
 ###### Running Locally
 I'm not going to explain how to run Jekyll & min locally simply because I don't run them locally. However here are some guides explaining the basics of getting Jekyll setup locally.
