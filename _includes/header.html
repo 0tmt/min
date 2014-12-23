@@ -1,0 +1,42 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <meta http-equiv="author" content="">
+    <meta http-equiv="contact" content="" >
+    <meta name="description" content="">
+    <meta name="keywords" content="">    
+    
+    <title>
+        {% if page.title %}{{site.title}} - {{ page.title }}{% else %}{{ site.name }}{% endif %}
+    </title>
+
+  <!-- Stylesheets -->
+    <link rel="stylesheet" href="{{ site.baseurl }}assets/css/normalize.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}assets/css/syntax.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}assets/css/style.css">
+    
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
+  <!-- Favicon -->
+    <link rel="shortcut icon" href="{{ site.baseurl }}assets/favicon.ico">
+</head>
+
+<html>
+<body>
+    <nav>
+        <div class="grid">
+            <div class="loop3">
+                <h6 style="line-height: 2;"><a href="{{ site.baseurl }}" title="Home">{{ site.title }}</a></h6>
+                <!--<p>{{ site.tagline }}</p>-->
+            </div>
+            
+            <div class="loop9">
+                <ul class="menu">
+                    <li><p><a href="{{ site.baseurl }}/pages/about">about</a></p></li>
+                    <li><p><a href="https://github.com/dbelt93/min">github</a></p></li>
+                    <li><p><a href="#">download</a></p></li>
+                </ul>
+            </div>
+        </div>
+    </nav>

@@ -1,0 +1,40 @@
+---
+layout: default
+title: Home
+---
+    {% for post in paginator.posts %}
+        <article>
+            <div class="grid">
+                <div class="loop12">
+                    <h1 class="title-post"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+                    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date"><p class="date">{{ post.date | date_to_string }}</p></time>
+                    {{ post.content }}
+                </div>
+            </div>
+        </article>
+    {% endfor %}
+
+    <div class="page">
+        <div class="grid">
+            <div class="loop12">
+                
+                {% if paginator.previous_page %}
+                {% if paginator.page == 2 %}
+                    <a class="newer" href="{{ site.baseurl }}">&#8592; previous</a>
+                {% else %}
+                    <a class="newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">&#8592; previous</a>
+                {% endif %}
+        
+                {% else %}
+                    <span class="newer">&#8592; previous</span>
+                {% endif %}
+                
+                {% if paginator.next_page %}
+                    <a class="older" href="{{ site.baseurl }}page{{paginator.next_page}}">next &#8594;</a>
+                {% else %}
+                <span class="older">next &#8594;</span>
+                {% endif %}
+                
+            </div>
+        </div>
+    </div>

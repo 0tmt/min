@@ -1,0 +1,35 @@
+// Variables
+
+$type:  border-box;
+$set:   auto;
+
+$full:   100%;
+$half:  50%;
+
+$max:   730px;
+$min:   260px;
+
+$pad:    10px;
+
+$begin:     1;
+$end:       12;
+
+$break:    768px;
+
+// Mixins
+
+.after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.animate {
+    transition: all 0.2s;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    background: #fff;
+}

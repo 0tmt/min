@@ -1,0 +1,23 @@
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Basic Info
+title:            min
+tagline:          a simple Jekyll theme
+description:      Describe your website.
+url:              http://dbelt93.github.io
+paginate:         1
+baseurl:          http://dbelt93.github.io/min/
+author:
+  name:           Daniel Belt
+  url:            dbelt93.gith.io
+  email:          dbelt93@gmail.com
+  
+  
+sass:
+    sass_dir: assets/_scss
+    style: :expanded # You might prefer to minify using :compressed
+
+markdown:            kramdown
+highlighter:         pygments
