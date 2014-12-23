@@ -1,6 +1,10 @@
 # Min
 
-Welcome to min a simple Jekyll theme. First & foremost min is a Jekyll theme creating your own custom designs. It's partially built on Poole another great starter theme for Jekyll. However it does have a few other features such as comping Sass(.scss).
+Welcome to min a simple Jekyll theme. First & foremost min is a Jekyll theme creating your own custom designs. It's partially built on <a href="http://getpoole.com/">Poole</a> another great starter theme for Jekyll. However it does have a few other features such as compiling Sass(.scss).
+
+/*Right now this theme is a bit rough around the edges. If you find any issues, have some thoughts about improving it, or just want to tell me it sucks feel free to get in touch.*/
+
+-   [dbelt93@gmail.com](dbelt93@gmail.com)
 
 ## Getting Started
 
