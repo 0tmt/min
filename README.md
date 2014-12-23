@@ -4,13 +4,14 @@ Welcome to min a simple Jekyll theme. First & foremost min is a Jekyll theme cre
 
 ## Getting Started
 
-#### Fork This Repo
+###### Fork This Repo
 If you want to get going right away simply fork this repo into your own repositories. The from there go to the config.yml file and set the "url", and "baseurl" accordingly.
 
-#### Running Locally
+###### Running Locally
 I'm not going to explain how to run Jekyll & min locally simply because I don't run them locally. However here are some guides explaining the basics of getting Jekyll setup locally.
 
 -<a href="http://jekyll-windows.juthilo.com/">Run Jekyll on Windows</a>
+<br>
 -<a href="http://jekyllrb.com/docs/installation/">Installing it on anything else</a>
 
 ## Support
