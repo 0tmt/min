@@ -8,11 +8,7 @@
     <meta name="keywords" content="">    
     
     <title>
-        {% if page.title == "Home" %}{% if page.title %}{{ page.title }} - {{ site.title }} &middot; {{ site.tagline }}
-        
-        {% else %}
-            {{ page.title }} &middot; {{ site.title }}
-        {% endif %}
+        {% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}
     </title>
 
   <!-- Stylesheets -->
