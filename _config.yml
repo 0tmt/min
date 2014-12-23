@@ -14,7 +14,6 @@ author:
   url:            dbelt93.gith.io
   email:          dbelt93@gmail.com
 
-sass_dir: _scss
 style: :expanded # You might prefer to minify using :compressed
 
 markdown:            kramdown
