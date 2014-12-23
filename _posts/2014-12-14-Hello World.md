@@ -7,6 +7,5 @@ title: Hello World
 <br><br>
 min is built on Poole which is another great starter theme, however there a few aspects I simpy didn't need, and some I did. So I took Poole as a foundation then began removing certain features while adding others.
 <br><br>
-
-If you want you can download the latest version here, or view the source on github.
+If you want you can download the min right here, or view the source on github.
 </p>
