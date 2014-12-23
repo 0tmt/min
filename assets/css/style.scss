@@ -114,6 +114,13 @@ article {
     
     .older {float: right;}
     .newer {float: left;}
+    
+    // For related posts
+    ul li {
+        list-style-type: none;
+        display: block;
+        margin-top: 10px;
+    }
 }
 
 footer {
