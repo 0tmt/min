@@ -1,6 +1,10 @@
 ---
 # Front matter comment to ensure Jekyll properly reads file.
 ---
+    
+@import 'config.scss';
+@import 'grid.scss';
+
 
 // MIN v1.0 - a simple jekyll theme
 // Author: Daniel Belt
@@ -8,10 +12,6 @@
 // Contact: dbelt93@gmail.com
 
 // Special thanks to poole.
-
-// Imports ========================
-@import 'config.scss';
-@import 'grid.scss';
 
 ::-moz-selection { color: #fff;  background: #73B6ED; }
 ::selection      { color: #fff;  background: #73B6ED; } 
