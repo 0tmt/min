@@ -1,15 +1,16 @@
 ---
 ---
-
-@import "_config.scss";
-@import "_grid.scss";
-
 // MIN v1.0 - a simple jekyll theme
 // Author: Daniel Belt
 // Website: dbelt93.github.io
 // Contact: dbelt93@gmail.com
+// License: MIT
 
 // Special thanks to poole.
+
+// Imports ========================
+@import "_config.scss";
+@import "_grid.scss";
 
 ::-moz-selection { color: #fff;  background: #73B6ED; }
 ::selection      { color: #fff;  background: #73B6ED; } 
@@ -39,7 +40,7 @@ img {
 
 // Font Styling ========================
 h1, h2, h3, h4, h5, h6 {
-    color: #555;
+    color: #333;
     font-weight: 400;
     line-height: 1.4;
     letter-spacing: 1px;
@@ -54,7 +55,7 @@ h5 {font-size: 18px;}
 h6 {font-size: 16px;}
 
 p {
-    color: #fff;
+    color: #555;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.8;
