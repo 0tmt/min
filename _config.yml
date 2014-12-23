@@ -15,7 +15,7 @@ author:
   email:          dbelt93@gmail.com
 
 sass:
-  sass_dir: assets/scss
+  sass_dir: css
   style: :expanded # You might prefer to minify using :compressed
   
 markdown:            kramdown
