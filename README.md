@@ -16,7 +16,7 @@ I'm not going to explain how to run Jekyll & min locally simply because I don't 
 
 -<a href="http://jekyll-windows.juthilo.com/">Run Jekyll on Windows</a>
 <br>
--<a href="http://jekyllrb.com/docs/installation/">Installing it on anything else</a>
+-<a href="http://jekyllrb.com/docs/installation/">Installing Jekyll on anything else</a>
 
 ## Support
 If you have any questions about min, or need some help feel free to get in touch.
