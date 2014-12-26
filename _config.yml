@@ -9,6 +9,7 @@ description:      Describe your website.
 url:              http://dbelt93.github.io
 paginate:         1
 baseurl:          http://dbelt93.github.io/min/
+
 author:
   name:           Daniel Belt
   url:            dbelt93.gith.io
@@ -17,7 +18,7 @@ author:
   
 sass:
     sass_dir: assets/_scss
-    style: :expanded # You might prefer to minify using :compressed
+    style: :compressed
 
 markdown:            kramdown
 highlighter:         pygments
