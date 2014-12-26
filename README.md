@@ -14,9 +14,9 @@ If you want to get going right away simply fork this repo into your own reposito
 ##### Running Locally
 I'm not going to explain how to run Jekyll & min locally simply because I don't run them locally. However here are some guides explaining the basics of getting Jekyll setup locally.
 
--<a href="http://jekyll-windows.juthilo.com/">Run Jekyll on Windows</a>
+- <a href="http://jekyll-windows.juthilo.com/">Run Jekyll on Windows</a>
 <br>
--<a href="http://jekyllrb.com/docs/installation/">Installing Jekyll on anything else</a>
+- <a href="http://jekyllrb.com/docs/installation/">Installing Jekyll on anything else</a>
 
 ## Support
 If you have any questions about min, or need some help feel free to get in touch.
